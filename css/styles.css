@@ -51,3 +51,77 @@
     text-align: center; 
   }
 }
+
+.clear {
+  clear: both;
+  width: 63px;
+}
+
+.wrapper {
+  min-height: 100%;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* Main content */
+
+.films_block {
+  text-align: center;
+}
+
+.films_block img {
+  margin-bottom: 5%;
+  border-radius: 5px;
+  border: solid 5px #dad7d5;
+  width: 100%;
+}
+
+.film_label {
+  padding: 2%;
+  margin-bottom: 4%;
+}
+
+.margin-8 {
+  margin-top: 8%;
+}
+
+/* Sidebar panel */
+
+.panel {
+  border: none;
+}
+
+.panel-body {
+  background-color: #f9f9f9;
+}
+
+.panel-info>.panel-heading {
+  background-color: #f0ad4e;
+  color: white;
+  border-color: transparent;
+}
+
+.sidebar-header {
+  font-size: 120%;
+  letter-spacing: 2px;
+}
+
+/* Footer */
+
+
+footer {
+  color: #666;
+  background-color: #222;
+  padding: 17px 0 18px 0;
+  border-top: 1px solid #000;
+}
+
+footer a {
+  color: #999;
+}
+
+footer a:hover {
+  color: white;
+}
