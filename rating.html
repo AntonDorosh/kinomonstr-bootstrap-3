@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -44,8 +44,8 @@
                 <li><a href="./index.html">Головна</a></li>
                 <li><a href="./films.html">Фільми</a></li>
                 <li><a href="#">Серіали</a></li>
-                <li><a href="./rating.html">Рейтинг фільмів</a></li>
-                <li class="active"><a href="./contacts.html">Контакти</a></li>
+                <li class="active"><a href="./rating.html">Рейтинг фільмів</a></li>
+                <li><a href="./contacts.html">Контакти</a></li>
               </ul>
             </div>
           </div>
@@ -69,23 +69,50 @@
               </div>
             </form>
             
-            <h1>Контакти</h1>
+            <h1>Рейтинг фільмів</h1>
             <hr>
-            <p>Залиште ваш відгук про портал <b>КіноМонстр</b></p>
-            <form>
-              <div class="form-group">
-                <input type="text" placeholder="Ваше ім'я" class="form-control input-lg">
-              </div>
-              <div class="form-group">
-                <input type="email" placeholder="Ваш email" class="form-control input-lg">
-              </div>
-              <div class="form-group">
-                <textarea class="form-control"></textarea>
-              </div>
-              <button class="btn btn-lg btn-warning pull-right">Відправити</button>
-            </form>
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Фільм</th>
+                  <th class="text-center">Рік</th>
+                  <th class="text-center">Рейтинг</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="col-lg-1 col-md-1 col-xs-2"><img class="img-responsive img-thumbnail" src="./img/inter.png" alt="Інтерстелар"></td>
+                  <td class="vert-align"><a href="./show.html">Інтерстелар</a></td>
+                  <td class="text-center vert-align">2014</td>
+                  <td class="text-center vert-align"><span class="badge">8.1</span></td>
+                </tr>
+
+                <tr>
+                  <td class="col-lg-1 col-md-1 col-xs-2"><img class="img-responsive img-thumbnail" src="./img/max.png" alt="Шалений Макс"></td>
+                  <td class="vert-align"><a href="./show.html">Шалений Макс</a></td>
+                  <td class="text-center vert-align">2012</td>
+                  <td class="text-center vert-align"><span class="badge">8.0</span></td>
+                </tr>
+
+                <tr>
+                  <td class="col-lg-1 col-md-1 col-xs-2"><img class="img-responsive img-thumbnail" src="./img/matrix.png" alt="Матриця"></td>
+                  <td class="vert-align"><a href="./show.html">Матриця</a></td>
+                  <td class="text-center vert-align">1999</td>
+                  <td class="text-center vert-align"><span class="badge">7.9</span></td>
+                </tr>
+
+                <tr>
+                  <td class="col-lg-1 col-md-1 col-xs-2"><img class="img-responsive img-thumbnail" src="./img/cloud.png" alt="Хмарний Атлас"></td>
+                  <td class="vert-align"><a href="./show.html">Хмарний Атлас</a></td>
+                  <td class="text-center vert-align">2016</td>
+                  <td class="text-center vert-align"><span class="badge">7.6</span></td>
+                </tr>
+              </tbody>
+            </table>
+
             <div class="margin-8 clear"></div>
-            
+
           </div>
 
           

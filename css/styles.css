@@ -151,6 +151,12 @@ textarea.form-control {
   height: 200px;
 }
 
+/* Rating */
+
+.table tbody>tr>td.vert-align {
+  vertical-align: middle;
+}
+
 /* Footer */
 
 
